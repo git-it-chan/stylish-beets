@@ -6,8 +6,7 @@ html {
   line-height: 1.5;
 }
 
-*, *::before,
-*::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -19,15 +18,15 @@ img {
   width: 100%;
 }
 
- a {
-   color: #8f2440;
-   text-decoration: none;
- }
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
 
- a:hover {
-   color: #3f1622
-   text-decoration: underline;
- }
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
 
 h1, h2 {
   color: #3f1622;
@@ -62,7 +61,7 @@ main figure + p {
 }
 
 blockquote {
-  font-size: .8rem
+  font-size: .8rem;
 }
 
 blockquote p {
